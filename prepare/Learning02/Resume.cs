@@ -1,3 +1,5 @@
+namespace Learning02;
+
 public class Resume
 {
     public string name;
