@@ -29,7 +29,6 @@ class ListingActivity : IActivity
 
         DateTime startTime = DateTime.Now;
         List<string> items = new List<string>();
-        // Allow the user to list items until the specified duration is reached
         while (DateTime.Now - startTime < TimeSpan.FromSeconds(time))
         {
             Console.Write("Enter an item: ");
